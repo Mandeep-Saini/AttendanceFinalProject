@@ -2,7 +2,7 @@ const request = require('request');
 
 const apiOptions = {
 //     server: 'http://localhost:3000'
-    server:'https://assignment2testapp.herokuapp.com'
+    server:'https://attendancereportsystem.herokuapp.com'
 };
 const login = function (req, res) {
     req.session.test = "empty";
