@@ -1,6 +1,7 @@
 const request = require('request');
 const apiOptions = {
-    server: 'http://localhost:3000'
+   // server: 'http://localhost:3000'
+    server:'https://attendancereportsystem.herokuapp.com'
 };
 
 
