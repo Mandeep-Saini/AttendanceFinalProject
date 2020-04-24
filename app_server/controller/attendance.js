@@ -2,7 +2,8 @@ const request = require('request');
 var express = require('express');
 var router = express.Router();
 const apiOptions = {
-    server: 'http://localhost:3000'
+    //server: 'http://localhost:3000'
+    server:'https://attendancereportsystem.herokuapp.com'
 };
 
 const _renderStudentPage = function (req, res, responseBody) {
