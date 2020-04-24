@@ -118,6 +118,7 @@ const findUser = function (req, res) {
         method: 'GET',
         json: {}
     };
+     console.log(requestOptions);
     request(requestOptions, (err, response, body) => {
         console.log(body);
         if (body.message == "Password not matched") {
